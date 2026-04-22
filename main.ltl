@@ -1,0 +1,15 @@
+// ltl-diff/main.ltl
+//
+// Myers-diff line differ with unified-output formatter.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-diff v0.1.0")
+    io::println("Myers-diff line differ with unified-output formatter.")
+    0
+}
